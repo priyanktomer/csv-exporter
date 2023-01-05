@@ -56,6 +56,15 @@
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+		<repository>
+			<uniqueVersion>false</uniqueVersion>
+			<id>actual-coder</id>
+			<name>Actual Coder</name>
+			<url>https://github.com/priyanktomer/csv-exporter/</url>
+			<layout>default</layout>
+		</repository>
+	</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>

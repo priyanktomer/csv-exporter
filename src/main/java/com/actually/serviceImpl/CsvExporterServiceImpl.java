@@ -51,7 +51,7 @@ public class CsvExporterServiceImpl implements CsvExporterService {
 		// Get Data From DB using Repository
 		List<DataModelOne> dataList = dataRepo.findAll();
 		// Create a File
-		String filePath = "src\\csv\\opencsv.csv";
+		String filePath = "src\\csv\\commoncsv.csv";
 		File csvFile = new File(filePath);
 		csvFile.getParentFile().mkdirs();
 
